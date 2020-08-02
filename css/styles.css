@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******HTML ELEMENTS*****/
+h1 {
+    color: #66BFBF;
+    font-size: 4rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    color: #318fb5;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif; 
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    color: #EAF6F6;
+    border-width: 9px;
+    width: 5%;
+    margin-top: 50px;
+}
+
+/*******CONTAINERS******/
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.middle-container {
+    padding: 100px 0px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px;
+}
+
+.Web {
+    text-decoration: underline;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/*******IMAGES*******/
+.adwordsskill {
+    width: 25%; 
+    float: left;
+    margin-right: 30px;
+}
+
+.facebookskill {
+    width: 25%;
+    float: right;
+    margin-left: 30px;  
+}
+
+
+.top-cloud {
+    position: absolute; 
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+}
+
+a {
+    color: #11999E;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+a :hover {
+    background-color: #EAF6F6;
+}
+
+.footer-link {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-copyright {
+    color: #EAF6F6;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.BUTTON_GCJ {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #81ACED);
+    background-image: -moz-linear-gradient(top, #66BFBF, #81ACED);
+    background-image: -ms-linear-gradient(top, #66BFBF, #81ACED);
+    background-image: -o-linear-gradient(top, #66BFBF, #81ACED);
+    background-image: linear-gradient(to bottom, #66BFBF, #81ACED);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
